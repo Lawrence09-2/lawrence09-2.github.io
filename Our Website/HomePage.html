@@ -1,0 +1,128 @@
+<html>
+<head>
+    <title>Homepage</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<div class="page-wrapper">
+<div class="banner"> 
+    <h1 style="font-size:50px; text-align:center">KASUBI MARKET AND COVID 19</h1
+
+    </div>
+ <div class ="menutop">
+        <div class="NavBar">
+             <ul>
+                <li><a class="active" href="homepage.html">Home</a> 
+                </li>
+     
+                <li><a href="voices.html">Vendors Voices</a>
+				</li>
+                 <li><a href="experiences.html">Experiences</a>
+				</li>
+                 <li><a href="gallery.html">The Gallery</a></li> 
+			  <li><a href="documentary.html">Documetary</a></li>  
+            </ul>
+			<input type="text" name="search" placeholder="Search" style="float:right">
+
+    </div> 
+ </div>
+ <H1><marquee>WELCOME TO KASUBI MARKET</marquee></H1>
+<div class ="columnleft">
+<br><br><br>
+<h5>Working Hours</h5>
+The Market opens 7am till 8:30pm<br>
+Monday to Sunday<br><br>
+<H5>Location of Kasubi market</h5>
+Location; Kasubi market is located
+<br> in Kasubi city along the Kampala-Hoima road.
+
+</div>
+
+
+<div class ="content">
+    <div class="slide-container">
+    <span id="slider-image-1"></span>
+    <span id="slider-image-2"></span>
+    <span id="slider-image-3"></span>
+ 
+        <div class="image-container">
+                <img class="mySlides" src="images/1.jpg" class="slider-image">
+                <img class="mySlides" src="images/2.jpg" class="slider-image">
+                <img class="mySlides" src="images/3.jpg" class="slider-image">
+            
+        </div>
+   
+</div>
+</div>
+
+
+
+<section class="team">
+		<div class="container">
+		<h2>Some of Comodities Sold In Kasubi Market</h2>
+			<div class="row">
+				<div class="col-md-3 profile text-center">
+				<div class="img-box">
+				<img src="images/tom.jpg" class="img-responsive" height="200px" style="float:left" width="250px">
+			</div>
+			<h3>Vegetables</h3>
+	
+			</div>
+			
+			<div class="col-md-3 profile text-center">
+				<div class="img-box">
+				<img src="images/mat.jpg" class="img-responsive"height="200px" style="float:left" width="250px">
+			</div>
+			<h3>Matooke</h3>
+	
+			</div>
+			
+			<div class="col-md-3 profile text-center">
+				<div class="img-box">
+				<img src="images/hen.jpg" class="img-responsive"height="200px" style="float:left" width="250px">
+			</div>
+			<h3>Hens </h3>
+		
+			</div>
+			
+			<div class="col-md-3 profile text-center">
+				<div class="img-box">
+				<img src="images/swt.jpg" class="img-responsive"height="200px" style="float:left" width="250px">
+			</div>
+			<h3>Sweet Potatoes</h3>
+		
+			</div>
+			</div>
+		
+		
+		
+		</div>
+	</div>
+ </section>
+<script>
+      // Automatic Slideshow - change image every 3 seconds
+      var myIndex = 0;
+      carousel();
+      
+      function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}
+          x[myIndex-1].style.display = "block";
+          setTimeout(carousel, 3000);
+      }
+      </script>
+
+</body>
+<div class="footer">
+ KASUBI MARKET WEBSITE | Designed by; MUGERWA, FLAVIA, MASTULA & DIANA | Copyright &copy;2020
+</div>
+</html>
